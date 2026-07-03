@@ -174,7 +174,7 @@ All open items from organization, registry, RACI, communication, tooling and age
 
 | FB-034 | COMMUNICATION\_MODEL | Define escalation severity levels.                                                                     | ORCH / AUD        | High     | Review process                | Open                |
 
-| FB-035 | COMMUNICATION\_MODEL | Define review request template.                                                                        | AUD / KM          | Critical | Agent activation              | Open                |
+| FB-035 | COMMUNICATION\_MODEL | Define review request template.                                                                        | AUD / KM          | Critical | Agent activation              | Done                |
 
 | FB-036 | COMMUNICATION\_MODEL | Define documentation request template.                                                                 | KM                | Critical | Knowledge workflow            | Open                |
 
