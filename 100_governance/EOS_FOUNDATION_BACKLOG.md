@@ -166,7 +166,7 @@ All open items from organization, registry, RACI, communication, tooling and age
 
 | FB-030 | COMMUNICATION\_MODEL | Define OpenClaw agent routing implementation.                                                          | TOOL / ORCH       | High     | OpenClaw setup                | Open                |
 
-| FB-031 | COMMUNICATION\_MODEL | Define message schema for work packages.                                                               | ORCH / KM         | Critical | Agent coordination            | Open                |
+| FB-031 | COMMUNICATION\_MODEL | Define message schema for work packages.                                                               | ORCH / KM         | Critical | Agent coordination            | Done                |
 
 | FB-032 | COMMUNICATION\_MODEL | Define when Wiki publishing is required.                                                               | KM                | Medium   | Wiki setup                    | Open                |
 
