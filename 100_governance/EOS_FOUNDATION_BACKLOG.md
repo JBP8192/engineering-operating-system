@@ -112,7 +112,7 @@ All open items from organization, registry, RACI, communication, tooling and age
 
 | FB-003 | AI\_ORGANIZATION     | Define approval thresholds for low, medium and high-risk decisions.                                    | ORCH / AUD        | High     | Project workflows             | Open                |
 
-| FB-004 | AI\_ORGANIZATION     | Define prompt versioning standard.                                                                     | KM                | Critical | First prompt                  | Open                |
+| FB-004 | AI\_ORGANIZATION     | Define prompt versioning standard.                                                                     | KM                | Critical | First prompt                  | Done                |
 
 | FB-005 | AI\_ORGANIZATION     | Define GitHub branch protection rules.                                                                 | TOOL / KM         | Medium   | GitHub collaboration          | Open                |
 
@@ -126,11 +126,11 @@ All open items from organization, registry, RACI, communication, tooling and age
 
 | FB-010 | AI\_ORGANIZATION     | Define metrics for organizational learning.                                                            | KM / ORCH         | Medium   | Lessons learned process       | Open                |
 
-| FB-011 | AGENT\_REGISTRY      | Define exact prompt storage location.                                                                  | KM                | Critical | First prompt                  | Open                |
+| FB-011 | AGENT\_REGISTRY      | Define exact prompt storage location.                                                                  | KM                | Critical | First prompt                  | Done                |
 
-| FB-012 | AGENT\_REGISTRY      | Define agent testing procedure.                                                                        | AUD / ORCH        | Critical | Agent activation              | Open                |
+| FB-012 | AGENT\_REGISTRY      | Define agent testing procedure.                                                                        | AUD / ORCH        | Critical | Agent activation              | Done                |
 
-| FB-013 | AGENT\_REGISTRY      | Define activation review checklist.                                                                    | AUD / CG          | Critical | Agent activation              | Open                |
+| FB-013 | AGENT\_REGISTRY      | Define activation review checklist.                                                                    | AUD / CG          | Critical | Agent activation              | Done                |
 
 | FB-014 | AGENT\_REGISTRY      | Define agent versioning standard.                                                                      | KM                | High     | Agent registry v0.2           | Open                |
 
