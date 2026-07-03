@@ -1194,7 +1194,97 @@ The following principles are mandatory:
 
 
 
-\# 18. Open Items
+\# 18. Backlog Governance
+
+
+
+The Engineering Operating System shall maintain one central active backlog for foundation tasks.
+
+
+
+The central backlog is:
+
+
+
+`../100\_governance/EOS\_FOUNDATION\_BACKLOG.md`
+
+
+
+Open items may originate in governance, organization, workflow, agent or project documents.
+
+
+
+However, once an open item requires tracking or execution, it shall be transferred into the central backlog.
+
+
+
+Local open-item sections in individual documents shall not be used as active task lists.
+
+
+
+They may only contain:
+
+
+
+\* unresolved questions specific to the document,
+
+\* links to the central backlog,
+
+\* notes that require later triage.
+
+
+
+The Engineering Knowledge Manager is responsible for keeping the central backlog consistent.
+
+
+
+The Engineering Knowledge Manager may:
+
+
+
+\* scan documents for open items,
+
+\* identify duplicates,
+
+\* propose backlog entries,
+
+\* update task status,
+
+\* suggest owners and priorities,
+
+\* replace local open-item lists with links to the central backlog.
+
+
+
+The Engineering Knowledge Manager may not:
+
+
+
+\* delete open items without traceability,
+
+\* close tasks without evidence,
+
+\* mark governance tasks as done without review,
+
+\* change the Constitution,
+
+\* approve its own documentation changes as final.
+
+
+
+The Engineering OS Orchestrator is responsible for ensuring that open items are routed to the correct owner.
+
+
+
+The Human Owner remains accountable for final prioritization and approval of critical foundation tasks.
+
+
+
+\---
+
+
+
+\# 19. Open Items
 
 
 
@@ -1228,7 +1318,7 @@ The following items remain to be defined in later versions:
 
 
 
-\# 19. Change History
+\# 20. Change History
 
 
 
