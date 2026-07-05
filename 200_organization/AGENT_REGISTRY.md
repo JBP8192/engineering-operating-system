@@ -132,7 +132,7 @@ Priority describes how important the agent is for the initial EOS setup.
 
 | ---- | ----------------------------- | --------- | ------- | -------- | ----------- | -------------------------------------------------------------- | ------ |
 
-| A000 | Constitution Guardian         | Specified | 0.1     | Critical | Human Owner | `../500\_agent\_specifications/constitution\_guardian.md`         | TBD    |
+| A000 | Constitution Guardian         | Prompted | 0.1     | Critical | Human Owner | `../500\_agent\_specifications/constitution\_guardian.md`         | ../prompts/system/core/A000_constitution_guardian_v0.1.md    |
 
 | A001 | Engineering OS Orchestrator   | Prompted | 0.1     | Critical | Human Owner | `../500\_agent\_specifications/engineering\_os\_orchestrator.md`   | ../prompts/system/core/A001_engineering_os_orchestrator_v0.1.md    |
 
@@ -140,7 +140,7 @@ Priority describes how important the agent is for the initial EOS setup.
 
 | A003 | Chief Systems Engineer        | Proposed  | 0.1     | High     | Human Owner | TBD                                                            | TBD    |
 
-| A004 | Independent Auditor           | Prompted  | 0.1     | High     | Human Owner | TBD                                                            | ../prompts/system/core/A004_independent_auditor_v0.1.md    |
+| A004 | Independent Auditor           | Prompted  | 0.1     | High     | Human Owner | ../500_agent_specifications/independent_auditor.md                                                            | ../prompts/system/core/A004_independent_auditor_v0.1.md    |
 
 
 
