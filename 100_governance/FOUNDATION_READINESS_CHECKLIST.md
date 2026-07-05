@@ -6,9 +6,9 @@
 
 \*\*Title:\*\* Foundation Readiness Checklist
 
-\*\*Version:\*\* 0.1 Draft
+\*\*Version:\*\* 0.2 Draft
 
-\*\*Status:\*\* Proposed
+\*\*Status:\*\* Ready for Core Agent Testing
 
 \*\*Owner:\*\* Engineering OS Orchestrator
 
@@ -44,17 +44,17 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 
 
-| Field            | Value                               |
+| Field            | Value                                                                                                                                           |
 
-| ---------------- | ----------------------------------- |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 
-| Readiness Status | Ready |
+| Readiness Status | Ready for Core Agent Testing                                                                                                                    |
 
-| Checked by       | JBP8192                                 |
+| Checked by       | JBP8192                                                                                                                                         |
 
-| Date             | 2026-07-05                                 |
+| Date             | 2026-07-05                                                                                                                                      |
 
-| Recommendation   | TBD                                 |
+| Recommendation   | Start core agent test execution. Do not activate agents until test results, findings, activation records and Human Owner approval are complete. |
 
 
 
@@ -66,37 +66,37 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 
 
-| Check                                | Required | Status | Evidence |
+| Check                                | Required | Status | Evidence         |
 
-| ------------------------------------ | -------: | ------ | -------- |
+| ------------------------------------ | -------: | ------ | ---------------- |
 
-| `000\_constitution/` exists           |      Yes | TBD    | TBD      |
+| `000\_constitution/` exists           |      Yes | Done   | Directory exists |
 
-| `100\_governance/` exists             |      Yes | TBD    | TBD      |
+| `100\_governance/` exists             |      Yes | Done   | Directory exists |
 
-| `200\_organization/` exists           |      Yes | TBD    | TBD      |
+| `200\_organization/` exists           |      Yes | Done   | Directory exists |
 
-| `300\_workflows/` exists              |      Yes | TBD    | TBD      |
+| `300\_workflows/` exists              |      Yes | Done   | Directory exists |
 
-| `400\_knowledge\_model/` exists        |      Yes | TBD    | TBD      |
+| `400\_knowledge\_model/` exists        |      Yes | Done   | Directory exists |
 
-| `500\_agent\_specifications/` exists   |      Yes | TBD    | TBD      |
+| `500\_agent\_specifications/` exists   |      Yes | Done   | Directory exists |
 
-| `600\_tools/` exists                  |      Yes | TBD    | TBD      |
+| `600\_tools/` exists                  |      Yes | Done   | Directory exists |
 
-| `700\_templates/` exists              |      Yes | TBD    | TBD      |
+| `700\_templates/` exists              |      Yes | Done   | Directory exists |
 
-| `800\_projects/` exists               |      Yes | TBD    | TBD      |
+| `800\_projects/` exists               |      Yes | Done   | Directory exists |
 
-| `900\_lessons\_learned/` exists        |      Yes | TBD    | TBD      |
+| `900\_lessons\_learned/` exists        |      Yes | Done   | Directory exists |
 
-| `prompts/` exists                    |      Yes | TBD    | TBD      |
+| `prompts/` exists                    |      Yes | Done   | Directory exists |
 
-| `prompts/system/core/` exists        |      Yes | TBD    | TBD      |
+| `prompts/system/core/` exists        |      Yes | Done   | Directory exists |
 
-| `prompts/system/specialists/` exists |      Yes | TBD    | TBD      |
+| `prompts/system/specialists/` exists |      Yes | Done   | Directory exists |
 
-| `prompts/tests/` exists              |      Yes | TBD    | TBD      |
+| `prompts/tests/` exists              |      Yes | Done   | Directory exists |
 
 
 
@@ -112,23 +112,23 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 | --------------------------------- | -------: | ------ | ---------------------------------------------- |
 
-| EOS Constitution exists           |      Yes | TBD    | `000\_constitution/EOSC\_v0.1.md`                |
+| EOS Constitution exists           |      Yes | Done   | `000\_constitution/EOSC\_v0.1.md`                |
 
-| AI Organization exists            |      Yes | TBD    | `200\_organization/AI\_ORGANIZATION.md`          |
+| AI Organization exists            |      Yes | Done   | `200\_organization/AI\_ORGANIZATION.md`          |
 
-| Agent Registry exists             |      Yes | TBD    | `200\_organization/AGENT\_REGISTRY.md`           |
+| Agent Registry exists             |      Yes | Done   | `200\_organization/AGENT\_REGISTRY.md`           |
 
-| RACI Matrix exists                |      Yes | TBD    | `200\_organization/RACI\_MATRIX.md`              |
+| RACI Matrix exists                |      Yes | Done   | `200\_organization/RACI\_MATRIX.md`              |
 
-| Communication Model exists        |      Yes | TBD    | `200\_organization/COMMUNICATION\_MODEL.md`      |
+| Communication Model exists        |      Yes | Done   | `200\_organization/COMMUNICATION\_MODEL.md`      |
 
-| Foundation Backlog exists         |      Yes | TBD    | `100\_governance/EOS\_FOUNDATION\_BACKLOG.md`     |
+| Foundation Backlog exists         |      Yes | Done   | `100\_governance/EOS\_FOUNDATION\_BACKLOG.md`     |
 
-| Prompt Versioning exists          |      Yes | TBD    | `100\_governance/PROMPT\_VERSIONING.md`          |
+| Prompt Versioning exists          |      Yes | Done   | `100\_governance/PROMPT\_VERSIONING.md`          |
 
-| Agent Activation Checklist exists |      Yes | TBD    | `100\_governance/AGENT\_ACTIVATION\_CHECKLIST.md` |
+| Agent Activation Checklist exists |      Yes | Done   | `100\_governance/AGENT\_ACTIVATION\_CHECKLIST.md` |
 
-| Agent Testing Procedure exists    |      Yes | TBD    | `100\_governance/AGENT\_TESTING\_PROCEDURE.md`    |
+| Agent Testing Procedure exists    |      Yes | Done   | `100\_governance/AGENT\_TESTING\_PROCEDURE.md`    |
 
 
 
@@ -144,21 +144,21 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 | -------------------------------- | -------: | ------ | --------------------------------------------------- |
 
-| ADR Template                     |      Yes | TBD    | `700\_templates/ADR\_TEMPLATE.md`                     |
+| ADR Template                     |      Yes | Done   | `700\_templates/ADR\_TEMPLATE.md`                     |
 
-| Requirement Template             |      Yes | TBD    | `700\_templates/REQUIREMENT\_TEMPLATE.md`             |
+| Requirement Template             |      Yes | Done   | `700\_templates/REQUIREMENT\_TEMPLATE.md`             |
 
-| Risk Template                    |      Yes | TBD    | `700\_templates/RISK\_TEMPLATE.md`                    |
+| Risk Template                    |      Yes | Done   | `700\_templates/RISK\_TEMPLATE.md`                    |
 
-| Work Package Request Template    |      Yes | TBD    | `700\_templates/WORK\_PACKAGE\_REQUEST\_TEMPLATE.md`    |
+| Work Package Request Template    |      Yes | Done   | `700\_templates/WORK\_PACKAGE\_REQUEST\_TEMPLATE.md`    |
 
-| Review Request Template          |      Yes | TBD    | `700\_templates/REVIEW\_REQUEST\_TEMPLATE.md`          |
+| Review Request Template          |      Yes | Done   | `700\_templates/REVIEW\_REQUEST\_TEMPLATE.md`          |
 
-| Documentation Request Template   |      Yes | TBD    | `700\_templates/DOCUMENTATION\_REQUEST\_TEMPLATE.md`   |
+| Documentation Request Template   |      Yes | Done   | `700\_templates/DOCUMENTATION\_REQUEST\_TEMPLATE.md`   |
 
-| Agent Test Report Template       |      Yes | TBD    | `700\_templates/AGENT\_TEST\_REPORT\_TEMPLATE.md`       |
+| Agent Test Report Template       |      Yes | Done   | `700\_templates/AGENT\_TEST\_REPORT\_TEMPLATE.md`       |
 
-| Agent Activation Record Template |      Yes | TBD    | `700\_templates/AGENT\_ACTIVATION\_RECORD\_TEMPLATE.md` |
+| Agent Activation Record Template |      Yes | Done   | `700\_templates/AGENT\_ACTIVATION\_RECORD\_TEMPLATE.md` |
 
 
 
@@ -174,13 +174,13 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 | ---------------------------------- | ---------------------: | ------ | ----------------------------------------------------------- |
 
-| A000 Constitution Guardian         |                    Yes | TBD    | `500\_agent\_specifications/constitution\_guardian.md`         |
+| A000 Constitution Guardian         |                    Yes | Done   | `500\_agent\_specifications/constitution\_guardian.md`         |
 
-| A001 Engineering OS Orchestrator   |                    Yes | TBD    | `500\_agent\_specifications/engineering\_os\_orchestrator.md`   |
+| A001 Engineering OS Orchestrator   |                    Yes | Done   | `500\_agent\_specifications/engineering\_os\_orchestrator.md`   |
 
-| A002 Engineering Knowledge Manager |                    Yes | TBD    | `500\_agent\_specifications/engineering\_knowledge\_manager.md` |
+| A002 Engineering Knowledge Manager |                    Yes | Done   | `500\_agent\_specifications/engineering\_knowledge\_manager.md` |
 
-| A004 Independent Auditor           |                    Yes | TBD    | `500\_agent\_specifications/independent\_auditor.md`           |
+| A004 Independent Auditor           |                    Yes | Done   | `500\_agent\_specifications/independent\_auditor.md`           |
 
 
 
@@ -192,51 +192,17 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 
 
-| Agent                              | Prompt Required | Status  | Evidence                                                         |
+| Agent                              | Prompt Required | Status | Evidence                                                         |
 
-| ---------------------------------- | --------------: | ------- | ---------------------------------------------------------------- |
+| ---------------------------------- | --------------: | ------ | ---------------------------------------------------------------- |
 
-| A000 Constitution Guardian         |             Yes | Done | `prompts/system/core/A000\_constitution\_guardian\_v0.1.md`         |
+| A000 Constitution Guardian         |             Yes | Done   | `prompts/system/core/A000\_constitution\_guardian\_v0.1.md`         |
 
-| A001 Engineering OS Orchestrator   |             Yes | Done     | `prompts/system/core/A001\_engineering\_os\_orchestrator\_v0.1.md`   |
+| A001 Engineering OS Orchestrator   |             Yes | Done   | `prompts/system/core/A001\_engineering\_os\_orchestrator\_v0.1.md`   |
 
-| A002 Engineering Knowledge Manager |             Yes | Done     | `prompts/system/core/A002\_engineering\_knowledge\_manager\_v0.1.md` |
+| A002 Engineering Knowledge Manager |             Yes | Done   | `prompts/system/core/A002\_engineering\_knowledge\_manager\_v0.1.md` |
 
-| A004 Independent Auditor           |             Yes | Done     | `prompts/system/core/A004\_independent\_auditor\_v0.1.md`           |
-
-
-
-\---
-
-
-
-\# 8. Agent Registry Consistency Check
-
-
-
-| Check                                 | Required | Status | Evidence |
-
-| ------------------------------------- | -------: | ------ | -------- |
-
-| A000 listed in Agent Registry         |      Yes | TBD    | TBD      |
-
-| A001 listed in Agent Registry         |      Yes | TBD    | TBD      |
-
-| A002 listed in Agent Registry         |      Yes | TBD    | TBD      |
-
-| A004 listed in Agent Registry         |      Yes | TBD    | TBD      |
-
-| A001 prompt path is listed            |      Yes | TBD    | TBD      |
-
-| A002 prompt path is listed            |      Yes | TBD    | TBD      |
-
-| A004 prompt path is listed            |      Yes | TBD    | TBD      |
-
-| A004 specification path is listed     |      Yes | TBD    | TBD      |
-
-| No active agent without prompt        |      Yes | TBD    | TBD      |
-
-| No active agent without specification |      Yes | TBD    | TBD      |
+| A004 Independent Auditor           |             Yes | Done   | `prompts/system/core/A004\_independent\_auditor\_v0.1.md`           |
 
 
 
@@ -244,7 +210,71 @@ It only checks whether the required foundation artifacts exist and are sufficien
 
 
 
-\# 9. Pre-Test Readiness Criteria
+\# 8. Core Agent Test Report Check
+
+
+
+| Agent                              | Test Report Required | Status | Evidence                                                        |
+
+| ---------------------------------- | -------------------: | ------ | --------------------------------------------------------------- |
+
+| A000 Constitution Guardian         |                  Yes | Done   | `prompts/tests/A000\_constitution\_guardian\_test\_v0.1.md`         |
+
+| A001 Engineering OS Orchestrator   |                  Yes | Done   | `prompts/tests/A001\_engineering\_os\_orchestrator\_test\_v0.1.md`   |
+
+| A002 Engineering Knowledge Manager |                  Yes | Done   | `prompts/tests/A002\_engineering\_knowledge\_manager\_test\_v0.1.md` |
+
+| A004 Independent Auditor           |                  Yes | Done   | `prompts/tests/A004\_independent\_auditor\_test\_v0.1.md`           |
+
+
+
+\---
+
+
+
+\# 9. Agent Registry Consistency Check
+
+
+
+| Check                                 | Required | Status | Evidence                                                                          |
+
+| ------------------------------------- | -------: | ------ | --------------------------------------------------------------------------------- |
+
+| A000 listed in Agent Registry         |      Yes | Done   | `200\_organization/AGENT\_REGISTRY.md`                                              |
+
+| A001 listed in Agent Registry         |      Yes | Done   | `200\_organization/AGENT\_REGISTRY.md`                                              |
+
+| A002 listed in Agent Registry         |      Yes | Done   | `200\_organization/AGENT\_REGISTRY.md`                                              |
+
+| A004 listed in Agent Registry         |      Yes | Done   | `200\_organization/AGENT\_REGISTRY.md`                                              |
+
+| A000 specification path is listed     |      Yes | Done   | `../500\_agent\_specifications/constitution\_guardian.md`                            |
+
+| A001 specification path is listed     |      Yes | Done   | `../500\_agent\_specifications/engineering\_os\_orchestrator.md`                      |
+
+| A002 specification path is listed     |      Yes | Done   | `../500\_agent\_specifications/engineering\_knowledge\_manager.md`                    |
+
+| A004 specification path is listed     |      Yes | Done   | `../500\_agent\_specifications/independent\_auditor.md`                              |
+
+| A000 prompt path is listed            |      Yes | Done   | `../prompts/system/core/A000\_constitution\_guardian\_v0.1.md`                       |
+
+| A001 prompt path is listed            |      Yes | Done   | `../prompts/system/core/A001\_engineering\_os\_orchestrator\_v0.1.md`                 |
+
+| A002 prompt path is listed            |      Yes | Done   | `../prompts/system/core/A002\_engineering\_knowledge\_manager\_v0.1.md`               |
+
+| A004 prompt path is listed            |      Yes | Done   | `../prompts/system/core/A004\_independent\_auditor\_v0.1.md`                         |
+
+| No active agent without prompt        |      Yes | Done   | Core agents shall remain `Prompted` or `Testing` until activation evidence exists |
+
+| No active agent without specification |      Yes | Done   | Core agents shall remain `Prompted` or `Testing` until activation evidence exists |
+
+
+
+\---
+
+
+
+\# 10. Pre-Test Readiness Criteria
 
 
 
@@ -257,6 +287,8 @@ The EOS foundation is ready for initial core agent testing when:
 \* all four core agents have specifications,
 
 \* all four core agents have prompts,
+
+\* all four core agents have test report files,
 
 \* Agent Registry links specification and prompt files,
 
@@ -274,25 +306,11 @@ The EOS foundation is ready for initial core agent testing when:
 
 
 
-\---
+Current result:
 
 
 
-\# 10. Current Known Gaps
-
-
-
-| Gap ID  | Gap                                                   | Owner     | Required Before    | Status |
-
-| ------- | ----------------------------------------------------- | --------- | ------------------ | ------ |
-
-| GAP-001 | A000 Constitution Guardian prompt created             | KM / ORCH | Core agent testing | Done   |
-
-| GAP-002 | Test reports for A000, A002, A004 missing             | AUD / KM  | Agent activation   | Open   |
-
-| GAP-003 | Activation records for core agents missing            | ORCH / KM | Agent activation   | Open   |
-
-| GAP-004 | Agent Registry may need prompt/spec path verification | KM        | Core agent testing | Open   |
+`Ready for Core Agent Testing`
 
 
 
@@ -300,7 +318,35 @@ The EOS foundation is ready for initial core agent testing when:
 
 
 
-\# 11. Recommendation
+\# 11. Current Known Gaps
+
+
+
+| Gap ID  | Gap                                                    | Owner             | Required Before    | Status |
+
+| ------- | ------------------------------------------------------ | ----------------- | ------------------ | ------ |
+
+| GAP-001 | A000 Constitution Guardian prompt created              | KM / ORCH         | Core agent testing | Done   |
+
+| GAP-002 | Test reports for A000, A002, A004 created              | AUD / KM          | Agent activation   | Done   |
+
+| GAP-003 | Activation records for core agents missing             | ORCH / KM         | Agent activation   | Open   |
+
+| GAP-004 | Agent Registry prompt/spec path verification completed | KM                | Core agent testing | Done   |
+
+| GAP-005 | Core agent test execution not yet performed            | Human Owner / AUD | Agent activation   | Open   |
+
+| GAP-006 | Test findings not yet classified                       | AUD / Human Owner | Agent activation   | Open   |
+
+| GAP-007 | Human Owner activation approval not yet documented     | Human Owner       | Agent activation   | Open   |
+
+
+
+\---
+
+
+
+\# 12. Recommendation
 
 
 
@@ -308,11 +354,41 @@ Current recommendation:
 
 
 
-`Ready with Gaps`
+`Ready for Core Agent Testing`
 
 
 
-Testing should not start until the A000 Constitution Guardian prompt exists and the Agent Registry links for A001, A002 and A004 are verified.
+Testing may start for the four initial core agents:
+
+
+
+\* A000 Constitution Guardian
+
+\* A001 Engineering OS Orchestrator
+
+\* A002 Engineering Knowledge Manager
+
+\* A004 Independent Auditor
+
+
+
+Agents shall not be marked `Active` until:
+
+
+
+\* test scenarios are executed,
+
+\* actual behavior is recorded,
+
+\* findings are classified,
+
+\* activation records are created,
+
+\* required reviews are completed,
+
+\* Human Owner approval is documented,
+
+\* Agent Registry status is updated with evidence.
 
 
 
@@ -320,15 +396,39 @@ Testing should not start until the A000 Constitution Guardian prompt exists and 
 
 
 
-\# 12. Change History
+\# 13. Suggested Test Execution Order
 
 
 
-| Version | Date | Change                                 | Author   |
+| Order | Agent                              | Reason                                                                     |
 
-| ------- | ---- | -------------------------------------- | -------- |
+| ----: | ---------------------------------- | -------------------------------------------------------------------------- |
 
-| 0.1     | TBD  | Initial foundation readiness checklist | EOS Team |
+|     1 | A000 Constitution Guardian         | Confirms constitutional guardrails before other agent behavior is accepted |
+
+|     2 | A001 Engineering OS Orchestrator   | Confirms coordination, routing and escalation behavior                     |
+
+|     3 | A002 Engineering Knowledge Manager | Confirms documentation, backlog and traceability behavior                  |
+
+|     4 | A004 Independent Auditor           | Confirms review, findings and activation gate behavior                     |
+
+
+
+\---
+
+
+
+\# 14. Change History
+
+
+
+| Version | Date       | Change                                                                             | Author   |
+
+| ------- | ---------- | ---------------------------------------------------------------------------------- | -------- |
+
+| 0.1     | TBD        | Initial foundation readiness checklist                                             | EOS Team |
+
+| 0.2     | 2026-07-05 | Updated readiness status after creation of core prompts and core test report files | JBP8192  |
 
 
 
