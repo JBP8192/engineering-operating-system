@@ -136,11 +136,11 @@ Priority describes how important the agent is for the initial EOS setup.
 
 | A001 | Engineering OS Orchestrator   | Prompted | 0.1     | Critical | Human Owner | `../500\_agent\_specifications/engineering\_os\_orchestrator.md`   | ../prompts/system/core/A001_engineering_os_orchestrator_v0.1.md    |
 
-| A002 | Engineering Knowledge Manager | Specified | 0.1     | Critical | Human Owner | `../500\_agent\_specifications/engineering\_knowledge\_manager.md` | TBD    |
+| A002 | Engineering Knowledge Manager | Prompted | 0.1     | Critical | Human Owner | `../500\_agent\_specifications/engineering\_knowledge\_manager.md` | ../prompts/system/core/A002_engineering_knowledge_manager_v0.1.md    |
 
 | A003 | Chief Systems Engineer        | Proposed  | 0.1     | High     | Human Owner | TBD                                                            | TBD    |
 
-| A004 | Independent Auditor           | Proposed  | 0.1     | High     | Human Owner | TBD                                                            | TBD    |
+| A004 | Independent Auditor           | Prompted  | 0.1     | High     | Human Owner | TBD                                                            | ../prompts/system/core/A004_independent_auditor_v0.1.md    |
 
 
 
